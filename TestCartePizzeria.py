@@ -17,6 +17,8 @@ class TestCartePizzeria(unittest.TestCase):
     def test_is_empty_success():
         cp=CP()
         #cp.pizzas=[] "si on fait en public"
+        #soit 
+        #cp._CP__pizzas=[]
        assert cp.is_empty()
 
 if __name__ == "__main__":
